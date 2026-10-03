@@ -1,0 +1,228 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *, html.dark, html.dark *));
+@import "./design/theme.css";
+
+/* ───────── خطوط مجمع الملك فهد لطباعة المصحف الشريف (ملفات محلية في public/fonts) ───────── */
+@font-face {
+  font-family: 'KFGQPC Uthmanic Hafs';
+  src: url('/fonts/KFGQPC-Uthmanic-Hafs.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'KFGQPC Warsh';
+  src: url('/fonts/KFGQPC-Warsh.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Tailwind: الأرقام والإحصاءات بخط IBM Plex Mono */
+@theme {
+  --font-mono: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+@layer base {
+  :root {
+    /* واجهة التطبيق والأزرار */
+    --font-arabic: 'IBM Plex Sans Arabic', 'Noto Sans Arabic', system-ui, -apple-system, sans-serif;
+    /* العناوين وأسماء السور */
+    --font-heading: 'Amiri', 'Markazi Text', 'Traditional Arabic', serif;
+    /* نص القرآن: الافتراضي حفص، ويتبدّل إلى ورش عند اختيار المصحف المدني */
+    --font-quran-hafs: 'KFGQPC Uthmanic Hafs', 'Amiri Quran', 'Scheherazade New', 'Amiri', serif;
+    --font-quran-warsh: 'KFGQPC Warsh', 'Amiri Quran', 'Scheherazade New', 'Amiri', serif;
+    --font-quran: var(--font-quran-hafs);
+    /* الأرقام والإحصاءات */
+    --font-numeric: 'IBM Plex Mono', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  }
+
+  html[data-riwaya="warsh"] {
+    --font-quran: var(--font-quran-warsh);
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+    overflow-x: hidden;
+    overflow-x: clip;
+    width: 100%;
+    max-width: 100%;
+    color-scheme: light;
+  }
+
+  html[data-theme="dark"],
+  html.dark {
+    color-scheme: dark;
+  }
+
+  body {
+    font-family: var(--font-arabic);
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+    transition: background-color 0.15s ease, color 0.15s ease;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-x: clip;
+    width: 100%;
+    max-width: 100%;
+    position: relative;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  #root {
+    overflow-x: hidden;
+    overflow-x: clip;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-background);
+    color: var(--color-text-primary);
+  }
+}
+
+/* نص القرآن — يتبع الرواية النشطة (data-riwaya على <html>) */
+.font-quran,
+.font-quran-hafs,
+.font-quran-warsh {
+  font-family: var(--font-quran);
+  /* خطوط KFGQPC بوزن واحد؛ نمنع التغليظ الاصطناعي حتى لا يشوّه الرسم والضبط */
+  font-weight: 400 !important;
+  font-synthesis: none;
+  letter-spacing: normal !important;
+  font-feature-settings: "liga" 1, "calt" 1, "mkmk" 1, "mark" 1;
+  font-variant-ligatures: contextual common-ligatures;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  direction: rtl;
+  unicode-bidi: isolate;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+/* تثبيت الرواية صراحةً (مثلاً في المقارنة الجانبية بين المصحفين) */
+.font-quran-hafs  { font-family: var(--font-quran-hafs); }
+.font-quran-warsh { font-family: var(--font-quran-warsh); }
+
+/* العناوين وأسماء السور والحروف */
+.font-heading {
+  font-family: var(--font-heading);
+  letter-spacing: normal !important;
+  font-feature-settings: "liga" 1, "calt" 1, "mkmk" 1, "mark" 1;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  unicode-bidi: isolate;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.quran-ayah-container {
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  text-wrap: balance;
+  overflow: visible;
+}
+
+.font-sans-arabic {
+  font-family: var(--font-arabic);
+}
+
+.mono {
+  font-family: var(--font-numeric);
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom Manuscript Scholarly Scrollbars */
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-canvas);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-subtle);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--teal-primary);
+}
+
+/* Standardized Research Surfaces & Borders */
+.sci-border {
+  border: 1px solid var(--color-border);
+}
+
+.sci-border-hover:hover {
+  border-color: var(--color-primary);
+}
+
+.sci-bg {
+  background: var(--color-surface);
+  color: var(--color-text-primary);
+}
+
+/* Manuscript Theme Color Fallbacks */
+html[data-theme="light"],
+html.light {
+  background-color: #F7F4EA;
+  color: #0F1419;
+}
+
+html[data-theme="light"] body,
+html.light body {
+  background-color: #F7F4EA !important;
+  color: #0F1419 !important;
+}
+
+html[data-theme="dark"],
+html.dark {
+  background-color: #0B1716;
+  color: #F4F0E7;
+}
+
+html[data-theme="dark"] body,
+html.dark body {
+  background-color: #0B1716 !important;
+  color: #F4F0E7 !important;
+}
+
+/* Subtle selection */
+::selection {
+  background: rgba(26, 92, 92, 0.2);
+  color: #1A5C5C;
+}
+
+html.dark ::selection {
+  background: rgba(43, 116, 112, 0.35);
+  color: #F4F0E7;
+}
+
+/* Clean print styles for manuscript exports */
+@media print {
+  body {
+    background-color: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  header, footer, .no-print {
+    display: none !important;
+  }
+}

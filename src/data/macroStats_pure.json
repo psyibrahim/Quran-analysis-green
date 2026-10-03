@@ -1,0 +1,174 @@
+{
+  "meccan": {
+    "label": "مكي",
+    "surahsCount": 86,
+    "totalVerses": 4613,
+    "totalWords": 47634,
+    "totalChars": 200118,
+    "avgAyahLengthWords": 8.12,
+    "avgAyahLengthChars": 34.01,
+    "avgVocabDiversity": 72.27,
+    "avgWordLength": 4.21,
+    "avgVersesPerSurah": 53.6,
+    "letterPercentages": {
+      "ا": 19.04,
+      "ب": 3.58,
+      "ت": 3.78,
+      "ث": 0.5,
+      "ج": 1.07,
+      "ح": 1.4,
+      "خ": 0.72,
+      "د": 2.2,
+      "ذ": 1.73,
+      "ر": 4.31,
+      "ز": 0.45,
+      "س": 2.08,
+      "ش": 0.76,
+      "ص": 0.85,
+      "ض": 0.46,
+      "ط": 0.49,
+      "ظ": 0.21,
+      "ع": 2.96,
+      "غ": 0.4,
+      "ف": 2.8,
+      "ق": 2.13,
+      "ك": 3.08,
+      "ل": 11.19,
+      "م": 7.63,
+      "ن": 7.72,
+      "ه": 3.95,
+      "و": 7.08,
+      "ي": 7.43
+    },
+    "topRhymes": [
+      {
+        "pattern": "ـون / ـين",
+        "count": 2402,
+        "percentage": 52.07
+      },
+      {
+        "pattern": "ـوم / ـيم",
+        "count": 345,
+        "percentage": 7.48
+      },
+      {
+        "pattern": "ـر",
+        "count": 315,
+        "percentage": 6.83
+      },
+      {
+        "pattern": "ـرا",
+        "count": 168,
+        "percentage": 3.64
+      },
+      {
+        "pattern": "ـة / ـه",
+        "count": 161,
+        "percentage": 3.49
+      },
+      {
+        "pattern": "ـد / ـذ",
+        "count": 158,
+        "percentage": 3.43
+      },
+      {
+        "pattern": "ـب",
+        "count": 112,
+        "percentage": 2.43
+      },
+      {
+        "pattern": "ـدا",
+        "count": 89,
+        "percentage": 1.93
+      }
+    ]
+  },
+  "medinan": {
+    "label": "مدني",
+    "surahsCount": 28,
+    "totalVerses": 1623,
+    "totalWords": 30159,
+    "totalChars": 130572,
+    "avgAyahLengthWords": 17.05,
+    "avgAyahLengthChars": 74.11,
+    "avgVocabDiversity": 62.48,
+    "avgWordLength": 4.36,
+    "avgVersesPerSurah": 58,
+    "letterPercentages": {
+      "ا": 19.43,
+      "ب": 3.36,
+      "ت": 4.04,
+      "ث": 0.43,
+      "ج": 1.01,
+      "ح": 1.32,
+      "خ": 0.79,
+      "د": 1.77,
+      "ذ": 1.52,
+      "ر": 3.94,
+      "ز": 0.56,
+      "س": 1.77,
+      "ش": 0.59,
+      "ص": 0.65,
+      "ض": 0.53,
+      "ط": 0.35,
+      "ظ": 0.22,
+      "ع": 2.49,
+      "غ": 0.39,
+      "ف": 2.69,
+      "ق": 1.78,
+      "ك": 3.07,
+      "ل": 12.03,
+      "م": 7.71,
+      "ن": 7.65,
+      "ه": 4.99,
+      "و": 7.59,
+      "ي": 7.32
+    },
+    "topRhymes": [
+      {
+        "pattern": "ـون / ـين",
+        "count": 650,
+        "percentage": 40.05
+      },
+      {
+        "pattern": "ـوم / ـيم",
+        "count": 242,
+        "percentage": 14.91
+      },
+      {
+        "pattern": "ـر",
+        "count": 145,
+        "percentage": 8.93
+      },
+      {
+        "pattern": "ـرا",
+        "count": 91,
+        "percentage": 5.61
+      },
+      {
+        "pattern": "ـما",
+        "count": 86,
+        "percentage": 5.3
+      },
+      {
+        "pattern": "ـان",
+        "count": 64,
+        "percentage": 3.94
+      },
+      {
+        "pattern": "ـلا",
+        "count": 55,
+        "percentage": 3.39
+      },
+      {
+        "pattern": "ـب",
+        "count": 50,
+        "percentage": 3.08
+      }
+    ]
+  },
+  "totalSurahs": 114,
+  "totalQuranVerses": 6236,
+  "totalQuranWords": 77793,
+  "totalQuranChars": 330690
+}

@@ -1,0 +1,1319 @@
+{
+  "letters": [
+    "ا",
+    "ب",
+    "ت",
+    "ث",
+    "ج",
+    "ح",
+    "خ",
+    "د",
+    "ذ",
+    "ر",
+    "ز",
+    "س",
+    "ش",
+    "ص",
+    "ض",
+    "ط",
+    "ظ",
+    "ع",
+    "غ",
+    "ف",
+    "ق",
+    "ك",
+    "ل",
+    "م",
+    "ن",
+    "ه",
+    "و",
+    "ي"
+  ],
+  "letterNames": {
+    "ا": "ألف",
+    "ب": "باء",
+    "ت": "تاء",
+    "ث": "ثاء",
+    "ج": "جيم",
+    "ح": "حاء",
+    "خ": "خاء",
+    "د": "دال",
+    "ذ": "ذال",
+    "ر": "راء",
+    "ز": "زاي",
+    "س": "سين",
+    "ش": "شين",
+    "ص": "صاد",
+    "ض": "ضاد",
+    "ط": "طاء",
+    "ظ": "ظاء",
+    "ع": "عين",
+    "غ": "غين",
+    "ف": "فاء",
+    "ق": "قاف",
+    "ك": "كاف",
+    "ل": "لام",
+    "م": "ميم",
+    "ن": "نون",
+    "ه": "هاء",
+    "و": "واو",
+    "ي": "ياء"
+  },
+  "globalStats": {
+    "ا": {
+      "letter": "ا",
+      "name": "ألف",
+      "maxSurah": {
+        "number": 103,
+        "name": "سُورَةُ العَصۡرِ",
+        "percentage": 27.4,
+        "count": 20
+      },
+      "minSurah": {
+        "number": 105,
+        "name": "سُورَةُ الفِيلِ",
+        "percentage": 11.34,
+        "count": 11
+      },
+      "totalOccurrences": 62713,
+      "surahsWithZero": [],
+      "surahsWithZeroCount": 0
+    },
+    "ب": {
+      "letter": "ب",
+      "name": "باء",
+      "maxSurah": {
+        "number": 111,
+        "name": "سُورَةُ المَسَدِ",
+        "percentage": 9.88,
+        "count": 8
+      },
+      "minSurah": {
+        "number": 112,
+        "name": "سُورَةُ الإِخۡلَاصِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 11491,
+      "surahsWithZero": [
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        }
+      ],
+      "surahsWithZeroCount": 1
+    },
+    "ت": {
+      "letter": "ت",
+      "name": "تاء",
+      "maxSurah": {
+        "number": 104,
+        "name": "سُورَةُ الهُمَزَةِ",
+        "percentage": 7.46,
+        "count": 10
+      },
+      "minSurah": {
+        "number": 112,
+        "name": "سُورَةُ الإِخۡلَاصِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 12864,
+      "surahsWithZero": [
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        }
+      ],
+      "surahsWithZeroCount": 1
+    },
+    "ث": {
+      "letter": "ث",
+      "name": "ثاء",
+      "maxSurah": {
+        "number": 102,
+        "name": "سُورَةُ التَّكَاثُرِ",
+        "percentage": 3.25,
+        "count": 4
+      },
+      "minSurah": {
+        "number": 1,
+        "name": "سُورَةُ ٱلْفَاتِحَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 1414,
+      "surahsWithZero": [
+        {
+          "number": 1,
+          "name": "سُورَةُ ٱلْفَاتِحَةِ"
+        },
+        {
+          "number": 61,
+          "name": "سُورَةُ الصَّفِّ"
+        },
+        {
+          "number": 94,
+          "name": "سُورَةُ الشَّرۡحِ"
+        },
+        {
+          "number": 96,
+          "name": "سُورَةُ العَلَقِ"
+        },
+        {
+          "number": 97,
+          "name": "سُورَةُ القَدۡرِ"
+        },
+        {
+          "number": 98,
+          "name": "سُورَةُ البَيِّنَةِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 104,
+          "name": "سُورَةُ الهُمَزَةِ"
+        },
+        {
+          "number": 105,
+          "name": "سُورَةُ الفِيلِ"
+        },
+        {
+          "number": 106,
+          "name": "سُورَةُ قُرَيۡشٍ"
+        },
+        {
+          "number": 107,
+          "name": "سُورَةُ المَاعُونِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 110,
+          "name": "سُورَةُ النَّصۡرِ"
+        },
+        {
+          "number": 111,
+          "name": "سُورَةُ المَسَدِ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        },
+        {
+          "number": 114,
+          "name": "سُورَةُ النَّاسِ"
+        }
+      ],
+      "surahsWithZeroCount": 16
+    },
+    "ج": {
+      "letter": "ج",
+      "name": "جيم",
+      "maxSurah": {
+        "number": 105,
+        "name": "سُورَةُ الفِيلِ",
+        "percentage": 4.12,
+        "count": 4
+      },
+      "minSurah": {
+        "number": 1,
+        "name": "سُورَةُ ٱلْفَاتِحَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 3317,
+      "surahsWithZero": [
+        {
+          "number": 1,
+          "name": "سُورَةُ ٱلْفَاتِحَةِ"
+        },
+        {
+          "number": 94,
+          "name": "سُورَةُ الشَّرۡحِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 107,
+          "name": "سُورَةُ المَاعُونِ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        },
+        {
+          "number": 113,
+          "name": "سُورَةُ الفَلَقِ"
+        }
+      ],
+      "surahsWithZeroCount": 8
+    },
+    "ح": {
+      "letter": "ح",
+      "name": "حاء",
+      "maxSurah": {
+        "number": 112,
+        "name": "سُورَةُ الإِخۡلَاصِ",
+        "percentage": 4.26,
+        "count": 2
+      },
+      "minSurah": {
+        "number": 96,
+        "name": "سُورَةُ العَلَقِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 4140,
+      "surahsWithZero": [
+        {
+          "number": 96,
+          "name": "سُورَةُ العَلَقِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 114,
+          "name": "سُورَةُ النَّاسِ"
+        }
+      ],
+      "surahsWithZeroCount": 3
+    },
+    "خ": {
+      "letter": "خ",
+      "name": "خاء",
+      "maxSurah": {
+        "number": 87,
+        "name": "سُورَةُ الأَعۡلَىٰ",
+        "percentage": 2.03,
+        "count": 6
+      },
+      "minSurah": {
+        "number": 1,
+        "name": "سُورَةُ ٱلْفَاتِحَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 2497,
+      "surahsWithZero": [
+        {
+          "number": 1,
+          "name": "سُورَةُ ٱلْفَاتِحَةِ"
+        },
+        {
+          "number": 94,
+          "name": "سُورَةُ الشَّرۡحِ"
+        },
+        {
+          "number": 102,
+          "name": "سُورَةُ التَّكَاثُرِ"
+        },
+        {
+          "number": 105,
+          "name": "سُورَةُ الفِيلِ"
+        },
+        {
+          "number": 107,
+          "name": "سُورَةُ المَاعُونِ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 111,
+          "name": "سُورَةُ المَسَدِ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        }
+      ],
+      "surahsWithZeroCount": 9
+    },
+    "د": {
+      "letter": "د",
+      "name": "دال",
+      "maxSurah": {
+        "number": 112,
+        "name": "سُورَةُ الإِخۡلَاصِ",
+        "percentage": 10.64,
+        "count": 5
+      },
+      "minSurah": {
+        "number": 102,
+        "name": "سُورَةُ التَّكَاثُرِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 5991,
+      "surahsWithZero": [
+        {
+          "number": 102,
+          "name": "سُورَةُ التَّكَاثُرِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        }
+      ],
+      "surahsWithZeroCount": 3
+    },
+    "ذ": {
+      "letter": "ذ",
+      "name": "ذال",
+      "maxSurah": {
+        "number": 107,
+        "name": "سُورَةُ المَاعُونِ",
+        "percentage": 5.26,
+        "count": 6
+      },
+      "minSurah": {
+        "number": 101,
+        "name": "سُورَةُ القَارِعَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 4932,
+      "surahsWithZero": [
+        {
+          "number": 101,
+          "name": "سُورَةُ القَارِعَةِ"
+        },
+        {
+          "number": 105,
+          "name": "سُورَةُ الفِيلِ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        }
+      ],
+      "surahsWithZeroCount": 5
+    },
+    "ر": {
+      "letter": "ر",
+      "name": "راء",
+      "maxSurah": {
+        "number": 94,
+        "name": "سُورَةُ الشَّرۡحِ",
+        "percentage": 12.75,
+        "count": 13
+      },
+      "minSurah": {
+        "number": 112,
+        "name": "سُورَةُ الإِخۡلَاصِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 12403,
+      "surahsWithZero": [
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        }
+      ],
+      "surahsWithZeroCount": 1
+    },
+    "ز": {
+      "letter": "ز",
+      "name": "زاي",
+      "maxSurah": {
+        "number": 99,
+        "name": "سُورَةُ الزَّلۡزَلَةِ",
+        "percentage": 2.53,
+        "count": 4
+      },
+      "minSurah": {
+        "number": 1,
+        "name": "سُورَةُ ٱلْفَاتِحَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 1599,
+      "surahsWithZero": [
+        {
+          "number": 1,
+          "name": "سُورَةُ ٱلْفَاتِحَةِ"
+        },
+        {
+          "number": 82,
+          "name": "سُورَةُ الانفِطَارِ"
+        },
+        {
+          "number": 84,
+          "name": "سُورَةُ الانشِقَاقِ"
+        },
+        {
+          "number": 90,
+          "name": "سُورَةُ البَلَدِ"
+        },
+        {
+          "number": 93,
+          "name": "سُورَةُ الضُّحَىٰ"
+        },
+        {
+          "number": 100,
+          "name": "سُورَةُ العَادِيَاتِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 105,
+          "name": "سُورَةُ الفِيلِ"
+        },
+        {
+          "number": 106,
+          "name": "سُورَةُ قُرَيۡشٍ"
+        },
+        {
+          "number": 107,
+          "name": "سُورَةُ المَاعُونِ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 110,
+          "name": "سُورَةُ النَّصۡرِ"
+        },
+        {
+          "number": 111,
+          "name": "سُورَةُ المَسَدِ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        },
+        {
+          "number": 113,
+          "name": "سُورَةُ الفَلَقِ"
+        },
+        {
+          "number": 114,
+          "name": "سُورَةُ النَّاسِ"
+        }
+      ],
+      "surahsWithZeroCount": 17
+    },
+    "س": {
+      "letter": "س",
+      "name": "سين",
+      "maxSurah": {
+        "number": 114,
+        "name": "سُورَةُ النَّاسِ",
+        "percentage": 12.5,
+        "count": 10
+      },
+      "minSurah": {
+        "number": 106,
+        "name": "سُورَةُ قُرَيۡشٍ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 6012,
+      "surahsWithZero": [
+        {
+          "number": 106,
+          "name": "سُورَةُ قُرَيۡشٍ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        }
+      ],
+      "surahsWithZeroCount": 4
+    },
+    "ش": {
+      "letter": "ش",
+      "name": "شين",
+      "maxSurah": {
+        "number": 113,
+        "name": "سُورَةُ الفَلَقِ",
+        "percentage": 5.48,
+        "count": 4
+      },
+      "minSurah": {
+        "number": 1,
+        "name": "سُورَةُ ٱلْفَاتِحَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 2124,
+      "surahsWithZero": [
+        {
+          "number": 1,
+          "name": "سُورَةُ ٱلْفَاتِحَةِ"
+        },
+        {
+          "number": 86,
+          "name": "سُورَةُ الطَّارِقِ"
+        },
+        {
+          "number": 93,
+          "name": "سُورَةُ الضُّحَىٰ"
+        },
+        {
+          "number": 95,
+          "name": "سُورَةُ التِّينِ"
+        },
+        {
+          "number": 96,
+          "name": "سُورَةُ العَلَقِ"
+        },
+        {
+          "number": 102,
+          "name": "سُورَةُ التَّكَاثُرِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 104,
+          "name": "سُورَةُ الهُمَزَةِ"
+        },
+        {
+          "number": 105,
+          "name": "سُورَةُ الفِيلِ"
+        },
+        {
+          "number": 107,
+          "name": "سُورَةُ المَاعُونِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 110,
+          "name": "سُورَةُ النَّصۡرِ"
+        },
+        {
+          "number": 111,
+          "name": "سُورَةُ المَسَدِ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        }
+      ],
+      "surahsWithZeroCount": 14
+    },
+    "ص": {
+      "letter": "ص",
+      "name": "صاد",
+      "maxSurah": {
+        "number": 103,
+        "name": "سُورَةُ العَصۡرِ",
+        "percentage": 6.85,
+        "count": 5
+      },
+      "minSurah": {
+        "number": 91,
+        "name": "سُورَةُ الشَّمۡسِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 2072,
+      "surahsWithZero": [
+        {
+          "number": 91,
+          "name": "سُورَةُ الشَّمۡسِ"
+        },
+        {
+          "number": 93,
+          "name": "سُورَةُ الضُّحَىٰ"
+        },
+        {
+          "number": 97,
+          "name": "سُورَةُ القَدۡرِ"
+        },
+        {
+          "number": 101,
+          "name": "سُورَةُ القَارِعَةِ"
+        },
+        {
+          "number": 102,
+          "name": "سُورَةُ التَّكَاثُرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 113,
+          "name": "سُورَةُ الفَلَقِ"
+        }
+      ],
+      "surahsWithZeroCount": 7
+    },
+    "ض": {
+      "letter": "ض",
+      "name": "ضاد",
+      "maxSurah": {
+        "number": 94,
+        "name": "سُورَةُ الشَّرۡحِ",
+        "percentage": 1.96,
+        "count": 2
+      },
+      "minSurah": {
+        "number": 82,
+        "name": "سُورَةُ الانفِطَارِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 1686,
+      "surahsWithZero": [
+        {
+          "number": 82,
+          "name": "سُورَةُ الانفِطَارِ"
+        },
+        {
+          "number": 87,
+          "name": "سُورَةُ الأَعۡلَىٰ"
+        },
+        {
+          "number": 90,
+          "name": "سُورَةُ البَلَدِ"
+        },
+        {
+          "number": 95,
+          "name": "سُورَةُ التِّينِ"
+        },
+        {
+          "number": 96,
+          "name": "سُورَةُ العَلَقِ"
+        },
+        {
+          "number": 97,
+          "name": "سُورَةُ القَدۡرِ"
+        },
+        {
+          "number": 102,
+          "name": "سُورَةُ التَّكَاثُرِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 104,
+          "name": "سُورَةُ الهُمَزَةِ"
+        },
+        {
+          "number": 106,
+          "name": "سُورَةُ قُرَيۡشٍ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 110,
+          "name": "سُورَةُ النَّصۡرِ"
+        },
+        {
+          "number": 111,
+          "name": "سُورَةُ المَسَدِ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        },
+        {
+          "number": 113,
+          "name": "سُورَةُ الفَلَقِ"
+        },
+        {
+          "number": 114,
+          "name": "سُورَةُ النَّاسِ"
+        }
+      ],
+      "surahsWithZeroCount": 17
+    },
+    "ط": {
+      "letter": "ط",
+      "name": "طاء",
+      "maxSurah": {
+        "number": 108,
+        "name": "سُورَةُ الكَوۡثَرِ",
+        "percentage": 2.33,
+        "count": 1
+      },
+      "minSurah": {
+        "number": 62,
+        "name": "سُورَةُ الجُمُعَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 1273,
+      "surahsWithZero": [
+        {
+          "number": 62,
+          "name": "سُورَةُ الجُمُعَةِ"
+        },
+        {
+          "number": 87,
+          "name": "سُورَةُ الأَعۡلَىٰ"
+        },
+        {
+          "number": 94,
+          "name": "سُورَةُ الشَّرۡحِ"
+        },
+        {
+          "number": 99,
+          "name": "سُورَةُ الزَّلۡزَلَةِ"
+        },
+        {
+          "number": 101,
+          "name": "سُورَةُ القَارِعَةِ"
+        },
+        {
+          "number": 102,
+          "name": "سُورَةُ التَّكَاثُرِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 110,
+          "name": "سُورَةُ النَّصۡرِ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        },
+        {
+          "number": 113,
+          "name": "سُورَةُ الفَلَقِ"
+        },
+        {
+          "number": 114,
+          "name": "سُورَةُ النَّاسِ"
+        }
+      ],
+      "surahsWithZeroCount": 12
+    },
+    "ظ": {
+      "letter": "ظ",
+      "name": "ظاء",
+      "maxSurah": {
+        "number": 94,
+        "name": "سُورَةُ الشَّرۡحِ",
+        "percentage": 0.98,
+        "count": 1
+      },
+      "minSurah": {
+        "number": 1,
+        "name": "سُورَةُ ٱلْفَاتِحَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 853,
+      "surahsWithZero": [
+        {
+          "number": 1,
+          "name": "سُورَةُ ٱلْفَاتِحَةِ"
+        },
+        {
+          "number": 63,
+          "name": "سُورَةُ المُنَافِقُونَ"
+        },
+        {
+          "number": 81,
+          "name": "سُورَةُ التَّكۡوِيرِ"
+        },
+        {
+          "number": 87,
+          "name": "سُورَةُ الأَعۡلَىٰ"
+        },
+        {
+          "number": 89,
+          "name": "سُورَةُ الفَجۡرِ"
+        },
+        {
+          "number": 90,
+          "name": "سُورَةُ البَلَدِ"
+        },
+        {
+          "number": 91,
+          "name": "سُورَةُ الشَّمۡسِ"
+        },
+        {
+          "number": 93,
+          "name": "سُورَةُ الضُّحَىٰ"
+        },
+        {
+          "number": 95,
+          "name": "سُورَةُ التِّينِ"
+        },
+        {
+          "number": 96,
+          "name": "سُورَةُ العَلَقِ"
+        },
+        {
+          "number": 97,
+          "name": "سُورَةُ القَدۡرِ"
+        },
+        {
+          "number": 98,
+          "name": "سُورَةُ البَيِّنَةِ"
+        },
+        {
+          "number": 99,
+          "name": "سُورَةُ الزَّلۡزَلَةِ"
+        },
+        {
+          "number": 100,
+          "name": "سُورَةُ العَادِيَاتِ"
+        },
+        {
+          "number": 101,
+          "name": "سُورَةُ القَارِعَةِ"
+        },
+        {
+          "number": 102,
+          "name": "سُورَةُ التَّكَاثُرِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 104,
+          "name": "سُورَةُ الهُمَزَةِ"
+        },
+        {
+          "number": 105,
+          "name": "سُورَةُ الفِيلِ"
+        },
+        {
+          "number": 106,
+          "name": "سُورَةُ قُرَيۡشٍ"
+        },
+        {
+          "number": 107,
+          "name": "سُورَةُ المَاعُونِ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 110,
+          "name": "سُورَةُ النَّصۡرِ"
+        },
+        {
+          "number": 111,
+          "name": "سُورَةُ المَسَدِ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        },
+        {
+          "number": 113,
+          "name": "سُورَةُ الفَلَقِ"
+        },
+        {
+          "number": 114,
+          "name": "سُورَةُ النَّاسِ"
+        }
+      ],
+      "surahsWithZeroCount": 28
+    },
+    "ع": {
+      "letter": "ع",
+      "name": "عين",
+      "maxSurah": {
+        "number": 109,
+        "name": "سُورَةُ الكَافِرُونَ",
+        "percentage": 8.08,
+        "count": 8
+      },
+      "minSurah": {
+        "number": 110,
+        "name": "سُورَةُ النَّصۡرِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 9405,
+      "surahsWithZero": [
+        {
+          "number": 110,
+          "name": "سُورَةُ النَّصۡرِ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        }
+      ],
+      "surahsWithZeroCount": 2
+    },
+    "غ": {
+      "letter": "غ",
+      "name": "غين",
+      "maxSurah": {
+        "number": 94,
+        "name": "سُورَةُ الشَّرۡحِ",
+        "percentage": 1.96,
+        "count": 2
+      },
+      "minSurah": {
+        "number": 86,
+        "name": "سُورَةُ الطَّارِقِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 1221,
+      "surahsWithZero": [
+        {
+          "number": 86,
+          "name": "سُورَةُ الطَّارِقِ"
+        },
+        {
+          "number": 97,
+          "name": "سُورَةُ القَدۡرِ"
+        },
+        {
+          "number": 98,
+          "name": "سُورَةُ البَيِّنَةِ"
+        },
+        {
+          "number": 99,
+          "name": "سُورَةُ الزَّلۡزَلَةِ"
+        },
+        {
+          "number": 101,
+          "name": "سُورَةُ القَارِعَةِ"
+        },
+        {
+          "number": 102,
+          "name": "سُورَةُ التَّكَاثُرِ"
+        },
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 104,
+          "name": "سُورَةُ الهُمَزَةِ"
+        },
+        {
+          "number": 105,
+          "name": "سُورَةُ الفِيلِ"
+        },
+        {
+          "number": 106,
+          "name": "سُورَةُ قُرَيۡشٍ"
+        },
+        {
+          "number": 107,
+          "name": "سُورَةُ المَاعُونِ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 109,
+          "name": "سُورَةُ الكَافِرُونَ"
+        },
+        {
+          "number": 112,
+          "name": "سُورَةُ الإِخۡلَاصِ"
+        },
+        {
+          "number": 114,
+          "name": "سُورَةُ النَّاسِ"
+        }
+      ],
+      "surahsWithZeroCount": 15
+    },
+    "ف": {
+      "letter": "ف",
+      "name": "فاء",
+      "maxSurah": {
+        "number": 106,
+        "name": "سُورَةُ قُرَيۡشٍ",
+        "percentage": 6.49,
+        "count": 5
+      },
+      "minSurah": {
+        "number": 1,
+        "name": "سُورَةُ ٱلْفَاتِحَةِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 8747,
+      "surahsWithZero": [
+        {
+          "number": 1,
+          "name": "سُورَةُ ٱلْفَاتِحَةِ"
+        }
+      ],
+      "surahsWithZeroCount": 1
+    },
+    "ق": {
+      "letter": "ق",
+      "name": "قاف",
+      "maxSurah": {
+        "number": 113,
+        "name": "سُورَةُ الفَلَقِ",
+        "percentage": 8.22,
+        "count": 6
+      },
+      "minSurah": {
+        "number": 105,
+        "name": "سُورَةُ الفِيلِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 7034,
+      "surahsWithZero": [
+        {
+          "number": 105,
+          "name": "سُورَةُ الفِيلِ"
+        },
+        {
+          "number": 107,
+          "name": "سُورَةُ المَاعُونِ"
+        },
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        },
+        {
+          "number": 110,
+          "name": "سُورَةُ النَّصۡرِ"
+        },
+        {
+          "number": 111,
+          "name": "سُورَةُ المَسَدِ"
+        }
+      ],
+      "surahsWithZeroCount": 5
+    },
+    "ك": {
+      "letter": "ك",
+      "name": "كاف",
+      "maxSurah": {
+        "number": 108,
+        "name": "سُورَةُ الكَوۡثَرِ",
+        "percentage": 9.3,
+        "count": 4
+      },
+      "minSurah": {
+        "number": 103,
+        "name": "سُورَةُ العَصۡرِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 10497,
+      "surahsWithZero": [
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 106,
+          "name": "سُورَةُ قُرَيۡشٍ"
+        },
+        {
+          "number": 113,
+          "name": "سُورَةُ الفَلَقِ"
+        }
+      ],
+      "surahsWithZeroCount": 3
+    },
+    "ل": {
+      "letter": "ل",
+      "name": "لام",
+      "maxSurah": {
+        "number": 112,
+        "name": "سُورَةُ الإِخۡلَاصِ",
+        "percentage": 25.53,
+        "count": 12
+      },
+      "minSurah": {
+        "number": 80,
+        "name": "سُورَةُ عَبَسَ",
+        "percentage": 6.34,
+        "count": 35
+      },
+      "totalOccurrences": 38191,
+      "surahsWithZero": [],
+      "surahsWithZeroCount": 0
+    },
+    "م": {
+      "letter": "م",
+      "name": "ميم",
+      "maxSurah": {
+        "number": 104,
+        "name": "سُورَةُ الهُمَزَةِ",
+        "percentage": 11.19,
+        "count": 15
+      },
+      "minSurah": {
+        "number": 108,
+        "name": "سُورَةُ الكَوۡثَرِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 26735,
+      "surahsWithZero": [
+        {
+          "number": 108,
+          "name": "سُورَةُ الكَوۡثَرِ"
+        }
+      ],
+      "surahsWithZeroCount": 1
+    },
+    "ن": {
+      "letter": "ن",
+      "name": "نون",
+      "maxSurah": {
+        "number": 108,
+        "name": "سُورَةُ الكَوۡثَرِ",
+        "percentage": 11.63,
+        "count": 5
+      },
+      "minSurah": {
+        "number": 105,
+        "name": "سُورَةُ الفِيلِ",
+        "percentage": 1.03,
+        "count": 1
+      },
+      "totalOccurrences": 27270,
+      "surahsWithZero": [],
+      "surahsWithZeroCount": 0
+    },
+    "ه": {
+      "letter": "ه",
+      "name": "هاء",
+      "maxSurah": {
+        "number": 91,
+        "name": "سُورَةُ الشَّمۡسِ",
+        "percentage": 10.67,
+        "count": 27
+      },
+      "minSurah": {
+        "number": 103,
+        "name": "سُورَةُ العَصۡرِ",
+        "percentage": 0,
+        "count": 0
+      },
+      "totalOccurrences": 14850,
+      "surahsWithZero": [
+        {
+          "number": 103,
+          "name": "سُورَةُ العَصۡرِ"
+        },
+        {
+          "number": 113,
+          "name": "سُورَةُ الفَلَقِ"
+        }
+      ],
+      "surahsWithZeroCount": 2
+    },
+    "و": {
+      "letter": "و",
+      "name": "واو",
+      "maxSurah": {
+        "number": 103,
+        "name": "سُورَةُ العَصۡرِ",
+        "percentage": 13.7,
+        "count": 10
+      },
+      "minSurah": {
+        "number": 105,
+        "name": "سُورَةُ الفِيلِ",
+        "percentage": 2.06,
+        "count": 2
+      },
+      "totalOccurrences": 24813,
+      "surahsWithZero": [],
+      "surahsWithZeroCount": 0
+    },
+    "ي": {
+      "letter": "ي",
+      "name": "ياء",
+      "maxSurah": {
+        "number": 107,
+        "name": "سُورَةُ المَاعُونِ",
+        "percentage": 14.91,
+        "count": 17
+      },
+      "minSurah": {
+        "number": 113,
+        "name": "سُورَةُ الفَلَقِ",
+        "percentage": 1.37,
+        "count": 1
+      },
+      "totalOccurrences": 24565,
+      "surahsWithZero": [],
+      "surahsWithZeroCount": 0
+    }
+  }
+}

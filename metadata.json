@@ -1,0 +1,6 @@
+{
+  "name": "بصمة السور - Surah Fingerprint Lab",
+  "description": "منصة تحليلية إحصائية متقدمة للقرآن الكريم تتيح مقارنة المصحفين، ومختبر مقارنة سور الحواميم السبع (آل حم) بخريطة حرارية ومعالم بيانية، مع تحليل الأبجدية والتشابه الرياضي.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,296 @@
+/* ========================================================
+   GLOBAL DESIGN TOKENS ARCHITECTURE
+   Unified Manuscript Research Palette
+   ======================================================== */
+
+/* ========================================================
+   PALETTE RAMPS (بديل عن slate/gray الباردة وعن البنفسجي/الوردي)
+   ink  = رمادي أخضر دافئ متناسق مع الورق والزمرد
+   gold = ذهبي المخطوطات
+   ======================================================== */
+@theme {
+  --color-ink-50: #F8F6EF;
+  --color-ink-100: #F1ECE0;
+  --color-ink-200: #E2DDCF;
+  --color-ink-300: #C7CEC9;
+  --color-ink-400: #97A8A3;
+  --color-ink-500: #6F7F7B;
+  --color-ink-600: #53605E;
+  --color-ink-700: #3A4A47;
+  --color-ink-800: #1B302D;
+  --color-ink-900: #10211F;
+  --color-ink-950: #0B1716;
+
+  --color-gold-50: #FBF7EF;
+  --color-gold-100: #F7F2E8;
+  --color-gold-200: #EFE7DA;
+  --color-gold-300: #E0CFAE;
+  --color-gold-400: #C5A16A;
+  --color-gold-500: #B8935F;
+  --color-gold-600: #A07E4D;
+  --color-gold-700: #83653D;
+  --color-gold-800: #6B5333;
+  --color-gold-900: #574429;
+  --color-gold-950: #2E2315;
+}
+
+:root,
+[data-theme="light"],
+html.light {
+  /* Surfaces & Backgrounds */
+  --color-background: #F7F4EA;
+  --color-surface: #FCFAF5;
+  --color-surface-secondary: #F1ECE0;
+  --color-surface-elevated: #FFFFFF;
+  --color-card: #FBF9F2;
+  --color-card-hover: #FAF7EF;
+  --color-panel: #FAF8F2;
+  --color-input: #FFFFFF;
+  --color-input-border: #DED8C9;
+
+  /* Typography Colors */
+  --color-text-primary: #0F1419;
+  --color-text-secondary: #53605E;
+  --color-text-muted: #7B8885;
+  --color-text-inverse: #F4F0E7;
+
+  /* Borders & Dividers */
+  --color-border: #DED8C9;
+  --color-border-subtle: #E8E2D6;
+  --color-border-muted: #EFECE2;
+
+  /* Brand Emerald Primary */
+  --color-primary: #1A5C5C;
+  --color-primary-hover: #134747;
+  --color-primary-soft: #E8F1EF;
+
+  /* Scholarly Gold Accent */
+  --color-accent: #B8935F;
+  --color-accent-soft: #F7F2E8;
+  --color-gold: #B8935F;
+  --color-gold-hover: #A07E4D;
+  --color-gold-soft: #F7F2E8;
+
+  /* Semantic Feedback */
+  --color-success: #15803D;
+  --color-warning: #B45309;
+  --color-danger: #BE123C;
+
+  /* Shadows */
+  --color-shadow: rgba(15, 20, 25, 0.05);
+  --color-shadow-card: 0 1px 4px rgba(15, 20, 25, 0.06);
+  --color-shadow-elevated: 0 6px 18px rgba(15, 20, 25, 0.09);
+
+  /* Data Visualizations & Charts */
+  --chart-primary: #1A5C5C;
+  --chart-secondary: #B8935F;
+  --chart-muted: #7B8885;
+  --chart-grid: #E8E2D6;
+  --chart-label: #53605E;
+  --chart-tooltip-bg: #FCFAF5;
+  --chart-tooltip-border: #DED8C9;
+  --chart-tooltip-text: #0F1419;
+
+  /* Compatibility Aliases with existing components */
+  --bg-canvas: var(--color-background);
+  --bg-surface: var(--color-surface);
+  --bg-surface-hover: #F4F0E4;
+  --bg-card: var(--color-card);
+  --bg-card-hover: var(--color-card-hover);
+  --bg-subtle: var(--color-surface-secondary);
+  --bg-subtle-hover: #E8E2D4;
+  --bg-input: var(--color-input);
+  
+  --header-bg: var(--color-panel);
+  --header-text: var(--color-text-primary);
+  --header-text-muted: var(--color-text-secondary);
+  --header-border: var(--color-border);
+  --header-item-bg: #EFECE2;
+  --header-item-hover: #E5E0D0;
+  --header-item-active: var(--color-primary);
+
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+  --text-muted: var(--color-text-muted);
+
+  --teal-primary: var(--color-primary);
+  --teal-hover: var(--color-primary-hover);
+  --teal-light: var(--color-primary-soft);
+  --teal-border: var(--color-primary);
+
+  --gold-accent: var(--color-gold);
+  --gold-hover: var(--color-gold-hover);
+  --gold-light: var(--color-gold-soft);
+
+  --border-default: var(--color-border);
+  --border-subtle: var(--color-border-subtle);
+  --border-muted: var(--color-border-muted);
+
+  --shadow-subtle: var(--color-shadow-card);
+  --shadow-card: var(--color-shadow-card);
+  --shadow-elevated: var(--color-shadow-elevated);
+}
+
+[data-theme="dark"],
+html.dark {
+  /* Surfaces & Backgrounds */
+  --color-background: #0B1716;
+  --color-surface: #10211F;
+  --color-surface-secondary: #142825;
+  --color-surface-elevated: #162C29;
+  --color-card: #142825;
+  --color-card-hover: #19332F;
+  --color-panel: #10211F;
+  --color-input: #0E1F1D;
+  --color-input-border: #264340;
+
+  /* Typography Colors */
+  --color-text-primary: #F4F0E7;
+  --color-text-secondary: #B7C1BC;
+  --color-text-muted: #7D8C87;
+  --color-text-inverse: #0F1419;
+
+  /* Borders & Dividers */
+  --color-border: #264340;
+  --color-border-subtle: #1E3734;
+  --color-border-muted: #162B28;
+
+  /* Brand Emerald Primary */
+  --color-primary: #2B7470;
+  --color-primary-hover: #358A85;
+  --color-primary-soft: #163331;
+
+  /* Scholarly Gold Accent */
+  --color-accent: #C5A16A;
+  --color-accent-soft: #24221B;
+  --color-gold: #C5A16A;
+  --color-gold-hover: #D3B17B;
+  --color-gold-soft: #24221B;
+
+  /* Semantic Feedback */
+  --color-success: #22C55E;
+  --color-warning: #F59E0B;
+  --color-danger: #F43F5E;
+
+  /* Shadows */
+  --color-shadow: rgba(0, 0, 0, 0.4);
+  --color-shadow-card: 0 2px 8px rgba(0, 0, 0, 0.4);
+  --color-shadow-elevated: 0 8px 24px rgba(0, 0, 0, 0.55);
+
+  /* Data Visualizations & Charts */
+  --chart-primary: #2B7470;
+  --chart-secondary: #C5A16A;
+  --chart-muted: #7D8C87;
+  --chart-grid: #1E3734;
+  --chart-label: #B7C1BC;
+  --chart-tooltip-bg: #10211F;
+  --chart-tooltip-border: #264340;
+  --chart-tooltip-text: #F4F0E7;
+
+  /* Compatibility Aliases with existing components */
+  --bg-canvas: var(--color-background);
+  --bg-surface: var(--color-surface);
+  --bg-surface-hover: #162C29;
+  --bg-card: var(--color-card);
+  --bg-card-hover: var(--color-card-hover);
+  --bg-subtle: #122523;
+  --bg-subtle-hover: #172F2C;
+  --bg-input: var(--color-input);
+  
+  --header-bg: #0E201E;
+  --header-text: var(--color-text-primary);
+  --header-text-muted: #A8BCB9;
+  --header-border: #1F3835;
+  --header-item-bg: #142B28;
+  --header-item-hover: #1A3834;
+  --header-item-active: var(--color-primary);
+
+  --text-primary: var(--color-text-primary);
+  --text-secondary: var(--color-text-secondary);
+  --text-muted: var(--color-text-muted);
+
+  --teal-primary: var(--color-primary);
+  --teal-hover: var(--color-primary-hover);
+  --teal-light: var(--color-primary-soft);
+  --teal-border: var(--color-primary);
+
+  --gold-accent: var(--color-gold);
+  --gold-hover: var(--color-gold-hover);
+  --gold-light: var(--color-gold-soft);
+
+  --border-default: var(--color-border);
+  --border-subtle: var(--color-border-subtle);
+  --border-muted: var(--color-border-muted);
+
+  --shadow-subtle: var(--color-shadow-card);
+  --shadow-card: var(--color-shadow-card);
+  --shadow-elevated: var(--color-shadow-elevated);
+}
+
+/* Manuscript Parchment and Borders Utility Classes */
+.manuscript-surface {
+  background-color: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+}
+
+.manuscript-border {
+  border: 1px solid var(--color-border);
+}
+
+.manuscript-border-b {
+  border-bottom: 1px solid var(--color-border);
+}
+
+.manuscript-divider {
+  border-color: var(--color-border-subtle);
+}
+
+/* Corner ornament */
+.ornament-corner {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border-color: var(--color-gold);
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.ornament-top-right {
+  top: 6px;
+  right: 6px;
+  border-top: 1.5px solid var(--color-gold);
+  border-right: 1.5px solid var(--color-gold);
+}
+
+.ornament-top-left {
+  top: 6px;
+  left: 6px;
+  border-top: 1.5px solid var(--color-gold);
+  border-left: 1.5px solid var(--color-gold);
+}
+
+.ornament-bottom-right {
+  bottom: 6px;
+  right: 6px;
+  border-bottom: 1.5px solid var(--color-gold);
+  border-right: 1.5px solid var(--color-gold);
+}
+
+.ornament-bottom-left {
+  bottom: 6px;
+  left: 6px;
+  border-bottom: 1.5px solid var(--color-gold);
+  border-left: 1.5px solid var(--color-gold);
+}
+
+/* Restrained Scientific Charts & Tooltips */
+.recharts-default-tooltip {
+  background-color: var(--chart-tooltip-bg) !important;
+  border: 1px solid var(--chart-tooltip-border) !important;
+  border-radius: 6px !important;
+  color: var(--chart-tooltip-text) !important;
+  font-family: var(--font-arabic) !important;
+  font-size: 12px !important;
+  box-shadow: var(--color-shadow-elevated) !important;
+}
